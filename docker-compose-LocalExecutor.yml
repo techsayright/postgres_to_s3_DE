@@ -30,6 +30,7 @@ services:
             # - ./plugins:/usr/local/airflow/plugins
             - ./store_file:/usr/local/airflow/store_file_airflow
             - ./requirements.txt:/requirements.txt
+    
         ports:
             - "8080:8080"
         command: webserver
